@@ -1,0 +1,140 @@
+1. Project Overview
+===================
+Project: AAKAAR DOCUMENTATION
+Client: 
+
+2. Requirements Traceability
+============================
+{
+  "total_functional": 0,
+  "total_non_functional": 0,
+  "total_constraints": 0,
+  "total_integrations": 0,
+  "total_gaps_risks": 0,
+  "llm_calls": [
+    {
+      "pass": 1,
+      "name": "metadata",
+      "success": false,
+      "model": "llama-3.1-8b-instant",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "pass": 2,
+      "name": "functional_requirements",
+      "success": false,
+      "model": "llama-3.1-8b-instant",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "pass": 2,
+      "name": "functional_requirements",
+      "success": false,
+      "model": "llama-3.1-8b-instant",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "pass": 3,
+      "name": "non_functional_requirements",
+      "success": false,
+      "model": "llama-3.1-8b-instant",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "pass": 3,
+      "name": "non_functional_requirements",
+      "success": false,
+      "model": "llama-3.1-8b-instant",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "pass": 4,
+      "name": "constraints_integrations_gaps",
+      "success": false,
+      "model": "llama-3.1-8b-instant",
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  ]
+}
+
+3. Architecture Decisions
+=========================
+{
+  "total_components": 13,
+  "total_stack_items": 4,
+  "total_adrs": 4,
+  "total_api_endpoints": 4,
+  "llm_calls": [
+    {
+      "pass": 1,
+      "name": "architecture_design",
+      "success": true,
+      "model": "llama-3.3-70b-versatile"
+    }
+  ]
+}
+
+4. Implementation Summary
+=========================
+Tasks passed: 4
+Tasks failed: 6
+Files generated: 9
+[
+  {
+    "id": "TASK-002",
+    "title": "Configure database migrations",
+    "tests_passed": 1
+  },
+  {
+    "id": "TASK-003",
+    "title": "Develop backend API endpoints",
+    "tests_passed": 1
+  },
+  {
+    "id": "TASK-007",
+    "title": "Set up CI/CD pipelines",
+    "tests_passed": 1
+  },
+  {
+    "id": "TASK-008",
+    "title": "Deploy the application",
+    "tests_passed": 1
+  }
+]
+
+5. Code Review Results
+======================
+
+
+6. Test Coverage
+================
+Total tests passed: 4
+Total tests failed: 6
+Critic score: 0/100
+Critic status: unknown
+
+7. Deployment Configuration
+===========================
+CI/CD: GitHub Actions (.github/workflows/ci.yml)
+Containerization: Docker (if Dockerfile generated)
+Branch: main
+
+8. Security Assessment
+======================
+[]
+
+9. Performance Metrics
+======================
+Build time: see pipeline logs
+Total files: 9
+Total tasks: 10
+
+10. Sign-offs
+=============
+Pending client review and approval
